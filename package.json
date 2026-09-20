@@ -1,0 +1,33 @@
+{
+  "name": "pier",
+  "version": "0.1.0",
+  "description": "A small self-hosted chat backend for an AI persona: one-time guest links plus a persistent multi-room chat over MCP for AIs and humans.",
+  "license": "MIT",
+  "author": "fishisfish0614",
+  "type": "commonjs",
+  "main": "lib/guest-routes.js",
+  "files": [
+    "lib/",
+    "prompts/",
+    "tools/",
+    "server.js"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai",
+    "persona",
+    "guest",
+    "self-hosted",
+    "privacy",
+    "express",
+    "mcp",
+    "chat"
+  ],
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2"
+  }
+}

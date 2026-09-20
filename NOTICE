@@ -1,0 +1,26 @@
+Pier — third-party notices
+==========================
+
+Pier is derived in part from **atrio** by Cu&Lunedì
+(https://github.com/29-Cu/atrio), licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+The following originate from that upstream project (renamed and lightly
+adapted for this release):
+
+  - the guest-lounge storage layer (lib/store.js)
+  - the default LLM adapter (lib/llm-claude-cli.js)
+  - the guest visitor/admin HTTP routes (lib/guest-routes.js)
+  - the example host skeleton (server.js)
+
+Everything else in this repository — the multi-room chat system
+(lib/mcp-room.js), the MCP-native room tools, read cursors and unread
+counts, webhooks (lib/webhooks.js), the token-minting tool (tools/mint.js),
+and the room front end (lib/room-page.html, lib/room-ui/) — is new work
+added for this project (Pier) and is not part of the upstream atrio release.
+
+This NOTICE file is provided for attribution purposes and does not modify
+the MIT license under which the rest of this repository (see LICENSE) is
+distributed. If you redistribute the portions listed above, please keep
+this attribution per the terms of CC BY 4.0.
